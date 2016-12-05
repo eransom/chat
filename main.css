@@ -1,0 +1,64 @@
+
+h1 {
+  font-size: 30px;
+  color:
+}
+
+
+form {
+  display: inline-block;
+  margin-left: 28px;
+}
+
+input {
+  border: 1px solid;
+  padding: 3px;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+#getMsg {
+  background-color: lightsteelblue;
+  color: blue;
+}
+
+#post {
+  background-color: steelblue;
+  color: aliceblue;
+}
+
+#user {
+  margin-top: 10px;
+}
+
+.userGet {
+  display: inline-block;
+  margin-left: -480px;
+}
+
+body {
+  font:12px arial;
+  text-align:center;
+  padding:35px; }
+
+#chatArea {
+  background: linear-gradient(0deg, #1E2C3D 00%, #3E364E 100%);
+  margin: 30px auto;
+  max-width: 500px;
+  height: 300px;
+  border 2px solid;
+  text-align: left;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  position: relative;
+}
+
+p {
+  font-size: 17px;
+  color: beige;
+  margin-left: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Messenger</title>
+  </head>
+  <body>
+
+    <h1>MESSENGER</h1>
+
+    <div id="chatArea"></div>
+
+    <form method="POST" action="http://tiy-orl-proxy.herokuapp.com/messages">
+      <label>
+        <input id="msg" name="message[name]" placeholder="Type Here">
+      </label>
+      <button id="post">Post Message</button>
+    </form>
+
+    <div class="userGet">
+
+      <input id="user" placeholder="Username">
+      <button id="getMsg">Get New Messages</button>
+
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
